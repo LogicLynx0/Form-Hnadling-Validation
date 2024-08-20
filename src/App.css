@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* 1fr for label, 2fr for input */
+  gap: 10px; /* spacing between fields */
+}
+
+.label {
+  text-align: right;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+}
